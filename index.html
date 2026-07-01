@@ -262,7 +262,6 @@
   <footer>
     <div class="wrap">
       <div class="brand">cad<span>ence</span></div>
-      <div>Fait à Brazzaville · nom provisoire</div>
     </div>
   </footer>
 
@@ -326,11 +325,6 @@
     msg.className = 'form-msg';
     msg.textContent = '';
 
-    if(form.action.indexOf('') !== -1){
-      msg.className = 'form-msg err';
-      msg.textContent = "Formulaire pas encore branché — remplace  par ton identifiant Formspree.";
-      return;
-    }
     var btn = form.querySelector('button');
     var original = btn.textContent;
     btn.textContent = 'Envoi…';
