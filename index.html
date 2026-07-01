@@ -247,7 +247,7 @@
           <p>9€/mois, pour toujours — même quand le prix montera pour les autres.</p>
           <div class="price"><b>9€</b><small>/ mois, à vie</small></div>
 
-          <form class="signup" id="signup" action="https://formspree.io/f/VOTRE_ID" method="POST">
+          <form class="signup" id="signup" action="https://formspree.io/f/mnjkgvly" method="POST">
             <label class="visually-hidden" for="email">Ton adresse email</label>
             <input id="email" type="email" name="email" required placeholder="ton@email.com" autocomplete="email" />
             <button class="btn" type="submit">Je rejoins les fondateurs</button>
@@ -326,9 +326,9 @@
     msg.className = 'form-msg';
     msg.textContent = '';
 
-    if(form.action.indexOf('VOTRE_ID') !== -1){
+    if(form.action.indexOf('') !== -1){
       msg.className = 'form-msg err';
-      msg.textContent = "Formulaire pas encore branché — remplace VOTRE_ID par ton identifiant Formspree.";
+      msg.textContent = "Formulaire pas encore branché — remplace  par ton identifiant Formspree.";
       return;
     }
     var btn = form.querySelector('button');
